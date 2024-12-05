@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+    
+  }
+  
+  
+  
+  .interface{
+    max-width: 1280px;
+    margin: 0px;
+  }
+  
+  header{
+    padding: 40px 4%;
+  }
+  
+  header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;  
+    display: inline-block;
+    
+    
+  }
+  
+  header a:hover{
+    color:rgb(0, 0, 0) ;
+  
+    
+  }
+  
+  header nav ul{
+    list-style-type:none;
+  
+  }
+  
+  header nav ul li{
+        display: inline-block;
+        padding: 0 40px;
+  }
+  
+  header .btn-contato button{
+        padding: 10px 40px;
+        font-size: 18px;
+        font-weight: 700;
+        color:rgb(0, 0, 0) ;
+        border: 0;
+        cursor: pointer;
+  
+  }
+  
+  header .logo{
+    width: 100px;
+    border-radius: 20px;
+    
+    
+  }
+  
+  main .topo{
+    text-align: left;
+    float: center;
+    color: rgb(0, 0, 0);
+    
+  }
+  
+  main #eu{
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    cursor: pointer;
+    
+  }
+
+  main #euuu{
+    width: 200px; 
+    height: 200px; 
+    cursor: pointer;
+    
+  }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+  }
+  
+  .container-inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      ;
+  }
+  
+  
+  
+  
+  
+  p{
+    
+    font-size: 20px;
+    
+  }
+  
+  #Skills{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+  
+  }
+  
+  #ling{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+  }
+  
+  #euu{
+    margin: 150px 30px;
+    width: 400px;
+    border-radius: 30px;
+  }
+  
+  #Voltar{
+    padding: 10px 50px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 0;
+  cursor: pointer;
+  }
+  
+  
+   
+  
+  @media (min-width: 768px) {
+    .span7 {
+        color: rgb(0, 0, 0); 
+    }
+  }
+  
+  
+  @media (max-width: 767px) and (min-width: 481px) {
+    .span7 {
+        color: rgb(92, 131, 131); 
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .span7 {
+        color: rgb(185, 0, 0); 
+    }
+  }
+  
+  
+  table{
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  
+  .b{
+    
+    color: rgb(0, 0, 0);
+    
+  }
+
+  #prof{
+    padding: 50px;
+  text-align: center;
+  }
